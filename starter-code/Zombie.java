@@ -15,6 +15,11 @@ public class Zombie extends Monster{
         super();
     }
 
+//    public int sethealthtimestwo(){
+//        int a = getMhealth() * 2;
+//        return a;
+//    }
+
     @Override
     public String aboutMe() {
         System.out.println("Your health is " + getMhealth());
